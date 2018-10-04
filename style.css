@@ -50,6 +50,14 @@ span.lead {
     font-size: 2rem;
     font-weight: 200;
 }
+.intro hr {
+    border-color: rgba(255,255,255, 0.2);
+    margin: 3rem -15px;
+}
+
+.typed-cursor {
+    font-size: 2.7rem;
+}
 blockquote {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 3rem;
