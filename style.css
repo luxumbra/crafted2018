@@ -20,7 +20,8 @@ body {
     height: 100%;
 }
 
-header {
+header,
+#about {
     /* background: #2E4347 url("working-hands.jpg") center; */
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00444c+1,001f23+100 */
     background: #00444c; /* Old browsers */
@@ -58,7 +59,7 @@ span.lead {
     font-weight: 200;
 }
 .intro hr {
-    border-color: rgba(255,255,255, 0.2);
+    border-color: rgba(255,255,255, 0.05);
     margin: 2rem -15px 0;
 }
 

@@ -10,3 +10,10 @@ var options = {
     loopCount: Infinity
 }
 var typed = new Typed('#typed', options);
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+    easing: 'easeInOutQuad',
+    updateURL: true,
+    popstate: true,
+    speed: 1000
+});
