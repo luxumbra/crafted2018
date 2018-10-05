@@ -38,7 +38,7 @@ header {
 }
 
 .intro > .col-12 {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 .intro:last-of-type {
     padding-bottom: 0;
@@ -46,20 +46,20 @@ header {
 h1 {
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 span.lead {
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 .intro p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 200;
 }
 .intro hr {
     border-color: rgba(255,255,255, 0.2);
-    margin: 3rem -15px;
+    margin: 2rem -15px 0;
 }
 
 img[src="logo.png"] {
@@ -67,15 +67,24 @@ img[src="logo.png"] {
     height: auto;
 }
 .typed-cursor {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 blockquote {
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     text-align: justify-all;
 }
 @media (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .intro > .col-12 {
+        padding-bottom: 3rem;
+    }
+    .intro hr {
+        margin: 3rem -15px 0;
+    }
     img[src="logo.png"] {
         max-width: 25%;
     }
