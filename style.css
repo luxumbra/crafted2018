@@ -16,7 +16,7 @@ body {
     background-color: #00444c;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     height: 100%;
 }
 
@@ -50,11 +50,11 @@ h1 {
     font-weight: 100;
 }
 span.lead {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .intro p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
 }
 .intro hr {
@@ -63,15 +63,37 @@ span.lead {
 }
 
 img[src="logo.png"] {
-    max-width: 25%;
+    max-width: 40%;
     height: auto;
 }
 .typed-cursor {
-    font-size: 2.7rem;
+    font-size: 1.5rem;
 }
 blockquote {
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 200;
     text-align: justify-all;
+}
+@media (min-width: 768px) {
+    img[src="logo.png"] {
+        max-width: 25%;
+    }
+    span.lead {
+        font-size: 3rem;
+    }
+    .typed-cursor {
+        font-size: 2.7rem;
+    }
+    blockquote {
+        font-size: 3rem;
+    }
+}
+@media (min-width: 992px) {
+
+    html,
+    body {
+        font-size: 12px;
+    }
+
 }
