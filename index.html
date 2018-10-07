@@ -9,25 +9,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Assistant:200|Roboto+Slab:100|Roboto:100" rel="stylesheet">
     <link href="assets/icons/open-iconic-master/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 
-    <header class="d-flex flex-wrap align-items-center">
-        <div class="flex-row container-fluid align-self-center">
+    <header class="masthead">
+        <div class="container-fluid flex-column d-flex h-100 align-items-center justify-content-center">
             <div class="row intro">
                 <div class="col col-12">
                     <img src="logo.png" alt="">
                 </div>
+            </div>
+            <div class="row intro">
                 <div class="col col-12">
                     <!-- <h1 class="display-1">crafted</h1> -->
                     <span id="typed" class="lead typed-fade-out"></span>
                     <!-- <p>Hand crafted websites made in the Isle of Man</p> -->
-                    <hr>
                 </div>
             </div>
-            <div class="row precis justify-content-center">
-                <div class="col-10 col-sm-12">
+
+            <div class="row precis p-5">
+                <div class="col-12 col-md-12">
                     <blockquote>
                         <p>It's not about making something that meets expectations. <br>
                         It's about <em>making</em> something that <em>changes</em> them.</p>
@@ -37,20 +39,46 @@
                     </blockquote>
                 </div>
             </div>
-        </div>
-        <div class="flex-row container-fluid align-self-end next-section">
-            <div class="row justify-content-center">
-                <div class="col">
+            <div class="row p-5 next-section">
+                <div class="col col-12">
                     <a data-scroll href="#about" class="btn primary-btn shadow pulse" title="More arrow" aria-hidden="true"><span class=""></span></a>
                 </div>
             </div>
         </div>
     </header>
-    <section id="about" class="d-flex flex-wrap align-items-center">
-        <div class="flex-row container-fluid">
-            <div class="row justify-content-center intro">
+
+    <section id="about">
+        <div class="container-fluid flex-column d-flex h-100 align-items-center justify-content-center">
+            <div class="row flex-row intro align-self-center justify-content-center p-5">
+                <div class="col-8">
+                    <h2>Who am I?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nemo illo earum quas expedita recusandae eos autem nobis, nihil nesciunt eius magni, nisi officiis doloribus, fugiat accusantium voluptatibus consequuntur! Reiciendis.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center next-section p-5">
                 <div class="col col-8">
-                    <h2>Who we are</h2>
+                    <a data-scroll href="#services" class="btn primary-btn shadow pulse" title="More arrow" aria-hidden="true"><span class=""></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container-fluid flex-column d-flex h-100 align-items-center justify-content-center">
+            <div class="row justify-content-center intro">
+                <div class="col col-12">
+                    <h2>What I do</h2>
+                </div>
+                <div class="col col-4">
+                    <h3>I develop</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nemo illo earum quas expedita recusandae eos autem nobis, nihil nesciunt eius magni, nisi officiis doloribus, fugiat accusantium voluptatibus consequuntur! Reiciendis.</p>
+                </div>
+                <div class="col col-4">
+                    <h3>I design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nemo illo earum quas expedita recusandae eos autem nobis, nihil nesciunt eius magni, nisi officiis doloribus, fugiat accusantium voluptatibus consequuntur! Reiciendis.</p>
+                </div>
+                <div class="col col-4">
+                    <h3>I learn</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi nemo illo earum quas expedita recusandae eos autem nobis, nihil nesciunt eius magni, nisi officiis doloribus, fugiat accusantium voluptatibus consequuntur! Reiciendis.</p>
                 </div>
             </div>
