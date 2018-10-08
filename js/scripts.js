@@ -22,6 +22,10 @@ var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000
 });
 
+const srRevealSlooooow = {
+    delay: 1500,
+    duration: 1000
+}
 const srRevealSlooow = {
     delay: 700,
     duration: 700
@@ -37,4 +41,4 @@ const srRevealFast = {
 ScrollReveal().reveal("#about .intro", srRevealSlow);
 ScrollReveal().reveal("#services .intro", srRevealFast);
 ScrollReveal().reveal(".next-section", srRevealSlooow);
-ScrollReveal().reveal("footer", srRevealSlooow);
+ScrollReveal().reveal("section + footer", srRevealSlooooow);
