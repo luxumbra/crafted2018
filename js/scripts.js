@@ -2,8 +2,12 @@
 
 /* typed effect */
 var options = {
-    strings: ["Web development", "Web design", "Ecommerce ^1000", "Hand crafted websites made in the Isle of Man"],
-    typeSpeed: 100,
+    strings: [
+        "Web development^1000",
+        "Web design^1000",
+        "Ecommerce ^1000",
+        "Hand crafted websites^700 made in the Isle of Man^400."],
+    typeSpeed: 50,
     backDelay: 200,
     fadeOut: false,
     loop: false,

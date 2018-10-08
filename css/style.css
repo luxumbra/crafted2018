@@ -18,6 +18,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 11px;
     height: 100%;
+    margin:  0;
 }
 
 header,
@@ -38,11 +39,14 @@ section {
     text-align: center;
 }
 
+.intro {
+/*     width: 100%; */
+}
 .intro > .col-12 {
     /* padding-bottom: 2rem; */
 }
 .intro:last-of-type {
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
 }
 
 /* .more-btn {
@@ -61,6 +65,13 @@ section {
     /* position: relative; */
 }
 
+section + footer {
+    background: rgba(0,0,0,0.5);
+}
+footer ul {
+    list-style:  none;
+    margin: 0;
+}
 h1 {
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -70,25 +81,34 @@ h1 {
 span.lead {
     font-size: 1.2rem;
 }
+a {
+    color: rgba(255, 255, 255, 0.5);
+    transition: color 0.5s ease-in-out;
+}
+a:hover {
+    color: rgba(255, 255, 255, 1.0);
+    text-decoration: none;
+}
 .precis {
-    border-top: 1px solid rgba(255,255,255,0.2);
+    border-top: 1px solid rgba(255,255,255,0.05);
 }
 .intro h2 {
     font-family: 'Assistant', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .intro p {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 200;
 }
 .intro hr {
     border-color: rgba(255,255,255, 0.05);
-    margin: 2rem -15px 0;
+    margin: 1rem -15px 0;
 }
 
-img[src="logo.png"] {
-    max-width: 50%;
+img[src*="logo"] {
+    width:  100%;
+    max-width: 33%;
     height: auto;
 }
 .typed-cursor {
@@ -177,7 +197,7 @@ blockquote {
     }
     60% {
         opacity: 0;
-        box-shadow: 0 0 0 60px rgb(255,255,255, 0.1);
+        box-shadow: 0 0 0 6rem rgb(255,255,255, 0.03);
     }
 }
 
