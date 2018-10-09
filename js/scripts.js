@@ -22,21 +22,27 @@ var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000
 });
 
+feather.replace()
+
 const srRevealSlooooow = {
     delay: 1500,
-    duration: 1000
+    duration: 1000,
+    reset: true
 }
 const srRevealSlooow = {
     delay: 700,
-    duration: 700
+    duration: 700,
+    reset: true
 }
 const srRevealSlow = {
     delay: 400,
-    duration: 700
+    duration: 700,
+    reset: true
 }
 const srRevealFast = {
     delay: 400,
-    duration: 400
+    duration: 400,
+    reset: true
 }
 ScrollReveal().reveal("#about .intro", srRevealSlow);
 ScrollReveal().reveal("#services .intro", srRevealFast);
