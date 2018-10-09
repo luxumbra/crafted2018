@@ -89,7 +89,11 @@ a {
     transition: color 0.5s ease-in-out;
 }
 a:hover {
-    color: rgba(0,68,76, 0.7);
+    color: rgba(0,68,76, 0.5);
+    text-decoration: none;
+}
+a:visited {
+    color: rgba(0,68,76, 0.8);
     text-decoration: none;
 }
 .precis {
@@ -119,6 +123,12 @@ img[src*="logo"] {
     height: auto;
 }
 
+.navbar-toggler {
+    color: rgba(207,20,43, 1);
+}
+.navbar-toggler.collapsed {
+    color: rgba(0,68,76, 1);
+}
 .navbar-toggler svg {
     transform: rotate(90deg);
     transition: all 0.4s ease-in-out;
@@ -137,6 +147,11 @@ blockquote {
     text-align: justify-all;
 }
 
+footer a:hover,
+footer a:focus,
+footer a:active {
+    color: rgba(207,20,43, 1);
+}
 
 .bounce {
     position: fixed;
