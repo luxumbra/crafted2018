@@ -146,15 +146,14 @@ a:visited {
     padding-left:  0;
 }
 .projects li {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     margin-left:  0;
     display: flex;
     justify-content: start;
-    padding: 0 0 1rem;
+    padding: 0 0 1.5rem;
 }
 .projects li svg {
-    /* display: ; */
     min-width: 4rem;
     font-size: 3rem;
 }
