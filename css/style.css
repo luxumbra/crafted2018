@@ -136,6 +136,25 @@ a:visited {
 .projects h3 a {
     color: rgba(207,20,43, 1);
 }
+
+.projects .project-thumb {
+    width: 25rem;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    /* box-shadow: 0 0 3rem 0.5rem rgba(0,0,0,0.2); */
+    transition: all 0.5s ease-in-out;
+    opacity: 0.4;
+}
+.projects .project-thumb:hover {
+    width: 30rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 3rem 0.5rem rgba(0,0,0,0.2);
+    opacity: 1;
+}
 .projects h3,
 .projects p,
 .projects li {

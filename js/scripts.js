@@ -49,6 +49,6 @@ const srRevealFast = {
     mobile: true
 }
 ScrollReveal().reveal("#about .intro", srRevealSlow);
-ScrollReveal().reveal("#services .intro", srRevealFast);
+ScrollReveal().reveal("#services .intro, #projects .intro", srRevealFast);
 ScrollReveal().reveal(".next-section", srRevealSlooow);
 ScrollReveal().reveal("section + footer", srRevealSlooooow);
