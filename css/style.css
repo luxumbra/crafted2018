@@ -81,10 +81,10 @@ section + footer {
     color: #00444c;
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
 }
-/* footer ul {
+footer ul {
     list-style:  none;
     margin: 0;
-} */
+}
 
 h1 {
     color: #fff;
