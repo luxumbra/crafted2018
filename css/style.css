@@ -260,7 +260,7 @@ footer img[src*="logo"] {
 }
 blockquote {
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 200;
     text-align: justify-all;
 }
@@ -281,7 +281,7 @@ footer a:active {
     color: rgba(207,20,43, 1);
 }
 blockquote footer {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
 }
 .bounce {
     position: fixed;
