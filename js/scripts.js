@@ -22,7 +22,7 @@ var scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000
 });
 
-feather.replace()
+feather.replace();
 
 const srRevealSlooooow = {
     delay: 1500,

@@ -221,9 +221,21 @@ h3:hover .beta {
 }
 img[src*="logo"] {
     width:  100%;
-    max-width: 33%;
+    max-width: 80%;
     height: auto;
+    opacity: 0.8;
+    transition: all 1s ease-in-out;
 }
+/* img[src*="logo"]:hover {
+    opacity: 0.5;
+} */
+header img[src*="logo"] {
+    max-width: 80%;
+}
+footer img[src*="logo"] {
+
+}
+
 .navbar-brand img {
     max-width: 5rem;
     height: auto;
@@ -248,17 +260,29 @@ img[src*="logo"] {
 }
 blockquote {
     font-family: 'Roboto Slab', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 200;
     text-align: justify-all;
 }
-
+blockquote::before {
+/*     content: '"';
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 7rem;
+    display: flex;
+    align-self: baseline; */
+}
+blockquote .large {
+    font-size: 5rem;
+    font-weight: bold;
+}
 footer a:hover,
 footer a:focus,
 footer a:active {
     color: rgba(207,20,43, 1);
 }
-
+blockquote footer {
+    font-size: 1.2rem;
+}
 .bounce {
     position: fixed;
     bottom: 3rem;
@@ -371,7 +395,7 @@ footer a:active {
         font-size: 2.7rem;
     }
     blockquote {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 }
 @media (min-width: 992px) {
