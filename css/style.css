@@ -37,6 +37,7 @@ section {
 }
 section.free-height {
     padding-top: 3rem;
+    min-height: 100%;
     height: auto;
     background: #00444c; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #00444c 1%, #001f23 100%); /* FF3.6-15 */
@@ -221,21 +222,29 @@ h3:hover .beta {
 }
 img[src*="logo"] {
     width:  100%;
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
-    opacity: 0.8;
-    transition: all 1s ease-in-out;
 }
 /* img[src*="logo"]:hover {
     opacity: 0.5;
 } */
-header img[src*="logo"] {
-    max-width: 80%;
+header img[src*="logo.svg"] {
+    max-width: 60%;
+}
+header img[src*="logo.png"] {
+    max-width: 45%;
 }
 footer img[src*="logo"] {
 
 }
-
+@media (min-width: 768px) {
+    img[src*="logo.svg"] {
+        max-width:  80%;
+    }
+    header img[src*="logo.png"] {
+        max-width: 40%;
+    }
+}
 .navbar-brand img {
     max-width: 5rem;
     height: auto;
