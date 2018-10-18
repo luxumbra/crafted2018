@@ -228,18 +228,21 @@ img[src*="logo"] {
 /* img[src*="logo"]:hover {
     opacity: 0.5;
 } */
-header img[src*="logo"] {
+header img[src*="logo.svg"] {
     max-width: 60%;
+}
+header img[src*="logo.png"] {
+    max-width: 45%;
 }
 footer img[src*="logo"] {
 
 }
 @media (min-width: 768px) {
-    img[src*="logo"] {
+    img[src*="logo.svg"] {
         max-width:  80%;
     }
-    header img[src*="logo"] {
-        max-width: 80%;
+    header img[src*="logo.png"] {
+        max-width: 45%;
     }
 }
 .navbar-brand img {
