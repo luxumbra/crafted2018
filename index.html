@@ -18,8 +18,22 @@
 
 </head>
 <body id="root">
-
-    <header class="masthead pt-5 pt-md-5">
+    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">CrafteD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#services">Services</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="masthead pt-5 pt-md-5">
         <div class="container-fluid flex-column d-flex h-100 align-items-center justify-content-center">
             <div class="row intro pb-md-3 pb-lg-3 pb-0">
                 <div class="col col-12">
@@ -205,7 +219,7 @@
                     <div class="row text-center">
                         <div class="col-10 mx-auto">
                             <ul class="d-flex justify-content-around align-items-center p-2">
-                                <li class="nav-item px-2 px-md-4"><a href="#root"><i data-feather="home">Home</i></a></li>
+                                <li class="nav-item px-2 px-md-4"><a href="#home"><i data-feather="home">Home</i></a></li>
                                 <li class="nav-item px-2 px-md-4"><a href="tel:+44 7507 481812" class="nav-link"><i data-feather="phone">Phone</i> <span class="d-none d-lg-inline">+44 7507 481812</span></a></li>
                                 <li class="nav-item px-2 px-md-4"><a href="mailto:hello@crafted.im" class="nav-link"><i data-feather="mail">Email</i> <span class="d-none d-lg-inline">hello@crafted.im</span></a></li>
                                 <li class="nav-item px-2 px-md-4"><a href="https://linkedin.com/in/davesayerfreelancer" class="nav-link"><i data-feather="linkedin">LinkedIn</i> <span class="d-none d-lg-inline">Dave Sayer</span></a></li>
