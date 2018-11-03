@@ -18,8 +18,22 @@
 
 </head>
 <body id="root">
-
-    <header class="masthead pt-5 pt-md-5">
+    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#home">CrafteD</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="#home">Home</a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#services">Services</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+            </div>
+        </div>
+    </nav>
+    <header id="home" class="masthead pt-5 pt-md-5">
         <div class="container-fluid flex-column d-flex h-100 align-items-center justify-content-center">
             <div class="row intro pb-md-3 pb-lg-3 pb-0">
                 <div class="col col-12">
@@ -67,7 +81,7 @@
                     <p>I use HTML5, CSS3, SCSS, JavaScript (ES6), React, Hugo, NetlifyCMS and SnipCart and also handle the DevOps and DNS side of things on freelance projects. I am also an aspiring designer but my career aspirations are to be a senior full-stack developer.</p>
                 </div>
             </div>
-            <div class="row justify-content-center next-section p-0">
+            <div class="row justify-content-center next-section p-0 d-none d-lg-flex">
                 <div class="col col-8">
                     <a data-scroll href="#services" class="btn primary-btn pulse" title="More arrow" aria-hidden="true"><span class=""></span></a>
                 </div>
@@ -75,7 +89,7 @@
         </div>
     </section>
 
-    <section id="services" class="free-height py-5 py-md-4">
+    <section id="services" class="free-height">
         <div class="container-fluid flex-column d-flex align-items-center justify-content-center">
             <div class="row justify-content-around intro">
                 <div class="col col-12">
@@ -114,7 +128,7 @@
 
                 </div>
             </div>
-            <div class="row justify-content-center next-section p-1">
+            <div class="row justify-content-center next-section p-1 d-none d-lg-flex">
                 <div class="col col-8">
                     <a data-scroll href="#projects" class="btn primary-btn pulse" title="More arrow" aria-hidden="true"><span class=""></span></a>
                 </div>
@@ -205,7 +219,7 @@
                     <div class="row text-center">
                         <div class="col-10 mx-auto">
                             <ul class="d-flex justify-content-around align-items-center p-2">
-                                <li class="nav-item px-2 px-md-4"><a href="#root"><i data-feather="home">Home</i></a></li>
+                                <li class="nav-item px-2 px-md-4"><a href="#home"><i data-feather="home">Home</i></a></li>
                                 <li class="nav-item px-2 px-md-4"><a href="tel:+44 7507 481812" class="nav-link"><i data-feather="phone">Phone</i> <span class="d-none d-lg-inline">+44 7507 481812</span></a></li>
                                 <li class="nav-item px-2 px-md-4"><a href="mailto:hello@crafted.im" class="nav-link"><i data-feather="mail">Email</i> <span class="d-none d-lg-inline">hello@crafted.im</span></a></li>
                                 <li class="nav-item px-2 px-md-4"><a href="https://linkedin.com/in/davesayerfreelancer" class="nav-link"><i data-feather="linkedin">LinkedIn</i> <span class="d-none d-lg-inline">Dave Sayer</span></a></li>

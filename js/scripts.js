@@ -1,5 +1,3 @@
-// Can also be included with a regular script tag
-
 /* typed effect */
 const typedOptions = {
     strings: [
@@ -52,3 +50,22 @@ ScrollReveal().reveal("#about .intro", srRevealSlow);
 ScrollReveal().reveal("#services .intro, #projects .intro", srRevealFast);
 ScrollReveal().reveal(".next-section", srRevealSlooow);
 ScrollReveal().reveal("section + footer", srRevealSlooooow);
+
+// Navbar bits
+
+window.onscroll = function() {
+    navbarSticky();
+};
+
+var header = document.getElementById("home");
+var navbar = document.getElementById("nav");
+var sticky = header.offsetTop;
+console.log(sticky);
+
+function navbarSticky() {
+    if(window.pageYOffset > sticky) {
+        navbar.classList.add("sticky");
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
