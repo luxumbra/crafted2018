@@ -37,19 +37,23 @@ body {
 .navbar-collapse.show {
     background-color: rgba(0, 31, 35, 0.96);
 }
-.navbar-brand {
+.navbar-dark .navbar-brand {
     font-size: 1.5rem;
+    padding: 1rem 1.5rem;
 }
 .navbar + header {
-    padding-top: 130px;
+    padding-top: 180px;
 }
 .navbar.sticky {
     height: 8vh;
     font-size: 1.5rem;
 }
 @media (min-width: 768px) {
+    .navbar + header {
+        padding-top: 130px;
+    }
     .navbar.sticky {
-        height: 5vh;
+        height: 5.6vh;
         font-size: 1.5rem;
     }
 }
@@ -62,6 +66,7 @@ body {
 .navbar .navbar-nav .nav-link:hover {
     color: rgba(207,20,43, 1);
 }
+
 header,
 section {
     /* background: #2E4347 url("working-hands.jpg") center; */
