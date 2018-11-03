@@ -28,7 +28,7 @@ body {
     background-color: rgba(0, 31, 35, 0.96);
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
     font-size: 1.5rem;
-    transition: all 0.5s ease-in-out;
+    transition: height 0.5s ease-out;
 }
 .navbar-brand {
     font-size: 1.5rem;
@@ -38,10 +38,16 @@ body {
 }
 .navbar.sticky {
     height: 5vh;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
-.navbar .navbar-nav a.nav-link {
+.navbar .navbar-nav .nav-link {
+    color: rgba(207,20,43, 1);
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
     padding: 1rem 1.5rem;
+}
+.navbar .navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.6));
 }
 header,
 section {
@@ -58,7 +64,7 @@ section {
     height: 100vh;
 }
 section.free-height {
-    padding-top: 3rem;
+    padding-top: 5rem;
     min-height: 100%;
     height: auto;
     background: #00444c; /* Old browsers */
@@ -69,6 +75,7 @@ section.free-height {
     background-size: cover;
     background-blend-mode: overlay;
 }
+
 .container, .container-fluid {
     text-align: center;
 }
