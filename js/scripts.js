@@ -1,5 +1,3 @@
-// Can also be included with a regular script tag
-
 /* typed effect */
 const typedOptions = {
     strings: [
@@ -55,14 +53,16 @@ ScrollReveal().reveal("section + footer", srRevealSlooooow);
 
 // Navbar bits
 
-window.onscroll = function() {navbarScroll()};
+window.onscroll = function() {
+    navbarSticky();
+};
 
 var header = document.getElementById("home");
 var navbar = document.getElementById("nav");
 var sticky = header.offsetTop;
 console.log(sticky);
 
-function navbarScroll() {
+function navbarSticky() {
     if(window.pageYOffset > sticky) {
         navbar.classList.add("sticky");
     } else {
