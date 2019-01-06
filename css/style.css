@@ -25,10 +25,10 @@ body {
 .navbar.navbar-dark,
 .navbar.bg-dark {
     height: 8vh;
-    background-color: rgba(0, 31, 35, 0.96);
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 31, 35, 0);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0);
     font-size: 1.5rem;
-    transition: height 0.5s ease-out;
+    transition: box-shadow 0.7s ease-in-out, background-color 0.5s ease-in-out;
 }
 .navbar-collapse {
     background-color: rgba(0, 31, 35, 0.86);
@@ -45,6 +45,8 @@ body {
     padding-top: 180px;
 }
 .navbar.sticky {
+    background-color: rgba(0, 31, 35, 0.96);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.6);
     height: 8vh;
     font-size: 1.5rem;
 }
@@ -85,6 +87,7 @@ section {
 section.free-height {
     padding-top: 5rem;
     min-height: 100%;
+    max-height: unset;
     height: auto;
     background: #00444c; /* Old browsers */
     background: -moz-radial-gradient(center, ellipse cover, #00444c 1%, #001f23 100%); /* FF3.6-15 */
