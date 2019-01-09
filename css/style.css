@@ -86,7 +86,6 @@ section {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00444c', endColorstr='#001f23',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     background-size: cover;
     background-blend-mode: overlay;
-    /* box-shadow: 0 0 15rem 10rem rgba(0,31,35, 0.4) inset; */
     height: 100vh;
     max-height: 100%;
 }
