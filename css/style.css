@@ -16,30 +16,36 @@ body {
     background-color: #00444c;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     height: 100%;
     margin:  0;
+    padding: 0;
 }
 
 .navbar,
 .navbar.navbar-dark,
 .navbar.bg-dark {
     height: 8vh;
-    background-color: rgba(0, 31, 35, 0);
+    background-color: rgba(0, 31, 35, 0.86);
     box-shadow: 0 0 2rem rgba(0, 0, 0, 0);
     font-size: 1.5rem;
     transition: box-shadow 0.7s ease-in-out, background-color 0.5s ease-in-out;
 }
 .navbar-collapse {
-    background-color: rgba(0, 31, 35, 0.86);
+    /* background-color: rgba(0, 31, 35, 0.86); */
     transition: height 0.4s ease-in-out, background-color 0.2s ease-out;
 }
 .navbar-collapse.show {
     background-color: rgba(0, 31, 35, 0.96);
 }
 .navbar-dark .navbar-brand {
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 1.5rem;
+    font-weight: bold;
     padding: 1rem 1.5rem;
+}
+.navbar-dark .navbar-brand:hover {
+    color: rgba(207,20,43, 1);
 }
 .navbar + header {
     padding-top: 180px;
@@ -324,13 +330,7 @@ blockquote {
     font-weight: 200;
     text-align: justify-all;
 }
-blockquote::before {
-/*     content: '"';
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 7rem;
-    display: flex;
-    align-self: baseline; */
-}
+
 blockquote .large {
     font-size: 5rem;
     font-weight: bold;
@@ -341,7 +341,7 @@ footer a:active {
     color: rgba(207,20,43, 1);
 }
 blockquote footer {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .bounce {
     position: fixed;
