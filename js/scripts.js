@@ -63,7 +63,7 @@ var sticky = header.offsetTop;
 console.log(sticky);
 
 function navbarSticky() {
-    if(window.pageYOffset > sticky) {
+    if(window.pageYOffset > sticky + 200) {
         navbar.classList.add("sticky");
     } else {
         navbar.classList.remove("sticky");
